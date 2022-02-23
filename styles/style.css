@@ -1,0 +1,29 @@
+h1 {
+  color: white;
+}
+
+.millones {
+  color: white;
+  font-family: "arial", serif;
+}
+
+.menu-principal {
+  background-color: black;
+}
+.li-menu {
+  color: white;
+}
+li {
+  list-style: none;
+}
+.logo-1 {
+  height: 20px;
+}
+.blue-section {
+  background-color: blue;
+}
+.color-footer {
+  background-color: black;
+  height: 70px;
+  color: white;
+}

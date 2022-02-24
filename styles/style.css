@@ -10,20 +10,39 @@ h1 {
 .menu-principal {
   background-color: black;
 }
-.li-menu {
+.link-color {
   color: white;
+  text-decoration: none;
 }
 li {
   list-style: none;
+  margin-right: 20px;
 }
 .logo-1 {
   height: 20px;
 }
 .blue-section {
   background-color: blue;
+  width: 20px;
 }
 .color-footer {
   background-color: black;
   height: 70px;
   color: white;
+}
+
+.container-menu {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.menu-principal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dancer {
+  float: right;
 }

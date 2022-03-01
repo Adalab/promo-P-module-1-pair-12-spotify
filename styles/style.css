@@ -1,10 +1,19 @@
 h1 {
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 60px;
 }
 
 .millones {
   color: white;
-  font-family: "arial", serif;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: justify;
 }
 
 .menu-principal {
@@ -22,7 +31,7 @@ li {
   height: 20px;
 }
 .blue-section {
-  background-color: blue;
+  background-color: #008fd1;
   width: 100%;
 }
 .color-footer {
@@ -48,11 +57,25 @@ li {
   top: 0;
 }
 .article-1,
-article-2,
-article-3,
-article-4 {
+.article-2,
+.article-3,
+.article-4 {
   display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 .image-article {
   width: 50px;
+}
+.white-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.plan-button {
+  background-color: green;
+  border-radius: 80px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
